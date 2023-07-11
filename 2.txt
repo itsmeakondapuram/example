@@ -1,1 +1,104 @@
-This is the seccond file in second branch
+#!/bin/bash
+
+# Define colors for text and background
+TEXT_COLOR='\e[39m'      # Default text color (black)
+BACKGROUND_COLOR='\e[107m'  # White background color
+
+# Function to display resume content with white background
+display_resume() {
+  echo -e "${BACKGROUND_COLOR}${TEXT_COLOR}"
+  echo "Resume"
+  echo "------"
+  echo "SNEHA VENKATAMMAGARI"
+  echo "+1(519) 792-9931 ⋄ North York, ON"
+  echo "snehayv11@gmail.com ⋄ linkedin.com/in/venkatammagari-sneha"
+  echo "PROFESSIONAL SUMMARY"
+  echo "As an experienced Azure and BI engineer with over 4 years of expertise in BI and MSBI development, I have a proven track record of designing, developing, and deploying end-to-end BI solutions. With a strong understanding of the Microsoft BI stack and Azure services, I have migrated on-premise BI solutions to Azure Cloud and developed scalable and secure cloud-based BI solutions. I am proficient in ETL processes, data modeling, and data visualization using Power BI and have experience in implementing security measures for BI solutions. With a passion for continuous learning and keeping up-to-date with emerging technologies, I am confident in my ability to analyze complex problems and develop innovative solutions."
+  echo
+  echo "EXPERIENCE"
+  echo "MSBI Developer               Oct 2022 - Present"
+  echo "TD Bank                      Toronto, ON, CA"
+  echo "- Designed and developed data models for financial data in SQL Server Analysis Services (SSAS) that accurately represented the business requirements of the organization."
+  echo "- Developed ETL packages using SQL Server Integration Services (SSIS) to load data from various data sources into the data warehouse and data marts."
+  echo "- Designed and developed reports using SQL Server Reporting Services (SSRS) to support the organization’s financial reporting needs."
+  # Additional statements resembling package installation
+  echo "Installing packages..."
+  echo "Package 1... Done."
+  echo "Package 2... Done."
+  echo "Package 3... Done."
+  echo
+  echo "Business Intelligence Developer Oct 2021 - Oct 2022"
+  echo "Canlan Sports                Toronto, ON, CA"
+  echo "- Developed data models that supported decision-making by creating logical and physical data models and designing data warehouses."
+  echo "- Integrated data from multiple sources by creating ETL processes and worked with business stakeholders to optimize data models for reporting and analytics."
+  echo "- Created analytical reports, dashboards, and scorecards using BI tools such as Power BI and Tableau."
+  # Additional statements resembling package installation
+  echo "Installing packages..."
+  echo "Package 4... Done."
+  echo "Package 5... Done."
+  echo
+  echo "SSIS Developer               May 2019 - Sep 2021"
+  echo "British Telecom              Bangalore, India"
+  echo "- Possessed strong ETL skills and had extensive experience in data warehousing and ETL while working on various DW projects."
+  echo "- Solid experience with MS SQL Server, SSIS, Transact SQL, and SQL/SSIS HA and DR design, which were used to troubleshoot and tune database configurations, ETL processes, and SQL coding for optimal performance."
+  # Additional statements resembling package installation
+  echo "Installing packages..."
+  echo "Package 6... Done."
+  echo "Package 7... Done."
+  echo
+  echo "EDUCATION"
+  echo "Bachelor of Technology in Electronics and Communication Engineering, VNR-VJIET 2015 - 2019"
+  echo
+  echo "SKILLS"
+  echo "- Database Design and Development"
+  echo "- Business Intelligence (BI) Solutions"
+  echo "- Azure Services"
+  echo "- Cloud Architecture"
+  echo "- Data Analytics"
+  echo "- Problem Solving and Innovation"
+  echo "- Communication"
+  echo "- Project Management"
+  echo
+  echo "CERTIFICATION"
+  echo "- Certified Business Intelligence professional"
+  echo
+  # Reset text and background color to default
+  echo -e '\e[0m'
+}
+
+echo "Welcome to MyApp Installation"
+echo "----------------------------"
+
+# Prompt user for installation directory
+read -p "Enter installation directory: " install_dir
+
+# Create installation directory
+mkdir -p "$install_dir"
+
+echo "Installing MyApp..."
+
+# Simulate installation process
+echo "Copying files..."
+sleep 2
+
+echo "Setting up dependencies..."
+sleep 2
+
+# Additional statements resembling package installation
+echo "Installing packages..."
+echo "Package A... Done."
+echo "Package B... Done."
+echo "Package C... Done."
+
+echo "Configuring application..."
+sleep 2
+
+echo "Initializing database..."
+sleep 2
+
+echo "Installation completed successfully."
+
+# Display installed application information
+echo "------------------------"
+echo "MyApp Installation Summary"
+echo "------------------------"
