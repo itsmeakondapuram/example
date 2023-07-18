@@ -1,1 +1,98 @@
-Hello this is the file in first
+Ashok Kondapuram			Email: ashok.k14@outlook.com	Phone: +1 5199926780
+
+PROFESSIONAL SUMMARY
+Around 5 years of professional experience in implementing DevOps practices such as Continuous Integration (CI), and Continuous Deployment (CD) in runtime with tools like GIT, CI/CD, Ansible, Chef, and Kubernetes as Orchestration tool for managing containerized applications, deployed applications in Azure, AWS, Cloud platforms and implemented IaaS using Terraform, Cloud Formation and on-premises virtualization using VMware, Cloud Foundry.
+
+•	Expertise in Microsoft Azure IAAS, SAAS, and PAAS services, including storage, active directory, resource management, VMs, Blob Storage, SQL Database, Data Factory, Cloud Services, and more.
+•	Hands-on experience migrating on-premises applications to Azure Cloud using ARM and automation, focusing on resource groups and Azure Data Factory.
+•	Proficient in a wide range of Azure services such as compute, WebApps, Functions, Networking, Hybrid Integration, Identity and Access Management, Azure Active Directory, SQL, NoSQL, API Management, and more.
+•	Extensive experience in server infrastructure development on AWS Cloud, utilizin g services like EC2, EBS, ELB, Lambda, S3, RDS, DynamoDB, VPC, Route53, CloudWatch, CloudFormation, IAM, and Auto Scaling.
+•	Deployed and monitored scalable infrastructure on AWS, managed servers using Chef configuration management tools, and performed data migration from data centers to AWS.
+•	Designed roles and groups using AWS IAM, integrated DynamoDB with Lambda for storage and backup, and utilized Python-based Lambda functions for data transformations and analytics in EMR Clusters.
+•	Experience in deploying, managing, and scaling Docker containers, utilizing OpenShift Platform for container and Kubernetes cluster management.
+•	Hands-on experience automating, configuring, and deploying instances on AWS Cloud and data centers, managing high-availability and secure multi-AWS cloud infrastructure using Ansible with AWS CloudFormation and Jenkins.
+•	Expertise in setting up Kubernetes clusters, deploying applications, and managing charts using CLI, Helm, and YAML files.
+•	Written automation scripts for creating resources in OpenStack Cloud using Python and Terraform modules.
+•	Proficient in Docker container management, image creation, orchestration, and utilization of Docker registries.
+•	Hands-on expertise with Terraform for infrastructure deployment in AWS and Azure cloud services.
+•	Utilized Ansible as a configuration management tool, creating playbooks for provisioning servers, applications, and managing hosts.
+•	Setup and management of Jenkins for CI/CD, including writing Pipeline jobs, artifact uploads to Nexus Repository, and automation with scripting languages.
+•	Experience in using JIRA for issue tracking, Agile project management, and coordination.
+•	Experienced in real-time monitoring and alerting of applications using Nagios, ELK stack, and Splunk.
+•	Expertise in installing, configuring, and troubleshooting various operating systems, including RHEL, CentOS, Debian, Ubuntu, Solaris, macOS, and Windows.
+TECHNICAL SKILLS SUMMARY:
+
+Operating system	Linux (Red Hat 4/5/6/7), Ubuntu 14/16/18, Windows NT 2000/2003, CentOS 5, 6,7
+Application Servers	Oracle Web Logic (8/9/10), IBM Web Sphere (5/6/7), JBOSS
+Automation Tools	Jenkins, Jfrog, Nexus, Docker, Kubernetes, Ansible, chef-solo, habitat, compliance, Kitchen, chef-solo, Habitat, compliance, Vagrant, Terraform, Cloud Foundry
+Version control tools	GIT, GITHUB, SVN, BitBucket, GitLab, CodeCommit
+Web servers	Apache HTTP 2.x ,3.x, Nginx, IIS, Apache Tomcat
+Networking/protocol	DNS, DHCP, CISCO ASA Firewalls Routers/Switches, WAN, TCP/IP, NIS, NFS, SMTP, LAN, FTP
+Scripting	Perl, Python, Ruby, Bash shell, Power shell scripting, Groovy, PHP, Hashicorp, JSON
+Virtualization Technologies	VMWare ESX/ESXi, Windows Hyper-V, Power VM, Virtual box, Citrix Xen
+Cloud Environments	Open stack, AWS, Azure, GCP
+Volume manager	VERITAS volume manager, LVM with Linux, Solaris Volume Manager
+Database	AWS RDS, Aurora, DynamoDB, MongoDB, MySQL, MS SQL SERVER 2008/12
+Monitoring Tools	Nagios XI, Wavefront, AppDynamics, Splunk, SolarWinds, Cloud Watch, ELK, NewRelic
+EDUCATION:
+•	Bachelor of Technology, Osmania University, Hyderabad , India.
+
+WORK EXPERIENCE:
+ 
+Master Card, Toronto, Ontario                                                                             Sep 2022 to Present
+Azure DevOps Engineer / Azure Cloud Engineer
+•	Extensive experience building and installing servers in Azure using ARM Templates and Azure Portal. Migrated on-premises virtual machines to Azure using Azure Site Recovery.
+•	Utilized ARM templates for creating high-availability SQL infrastructure and virtual machine scale sets. Configured Azure WebApps, App services, Application insights, Azure DNS, and Azure Network Watcher.
+•	Implemented Azure site recovery, Azure stack, backup, and automation. Created automation assets, graphical runbooks, and PowerShell runbooks for task automation. Deployed Azure AD Connect and configured ADFS authentication flow.
+•	Automated tasks using Azure automation tool and ad hoc scripts. Utilized Azure Stream Analytics for real-time predictions and Azure IoT Hub for monitoring assets and telemetry ingestion.
+•	Deployed Azure IaaS virtual machines and Cloud services into secure VNets and subnets. Configured Azure Traffic Manager for user traffic routing. Migrated legacy services to a virtualized infrastructure.
+•	Used Azure Kubernetes Service (AKS) to deploy managed Kubernetes clusters. Created AKS clusters using Azure portal, Azure CLI, Resource Manager templates, and Terraform. Managed Kubernetes resources using Helm charts and YAML files.
+•	Configured Kubernetes services and cluster networking. Deployed and configured Prometheus for Kubernetes monitoring. Utilized Kubernetes and Docker for maintaining CI/CD runtime environments and deploying applications.
+•	Worked with Terraform templates to automate Azure IaaS virtual machines and scale sets. Implemented Terraform Enterprise for infrastructure-as-code and deployment in Azure.
+•	Utilized Docker for setting up Azure Container Registry, Docker-compose, and deploying containers using Kubernetes. Developed networking policies for Docker containers. Worked with Docker Mesos and Kubernetes.
+•	Used Ansible for configuration management and infrastructure automation. Created dynamic inventory and wrote playbooks using YAML scripting. Utilized Ansible Tower for easier management and role-based access control.
+•	Integrated Ansible with Jenkins for automation and continuous integration/continuous deployment (CI/CD). Built CI/CD pipelines in Jenkins, incorporating Ansible playbooks and scripts.
+•	Managed DNS and Akamai setup. Utilized Nexus for artifact management and administration. Implemented Git for source code management, including branching and tagging strategies.
+•	Automated continuous integration and continuous deployment (CI/CD) using PowerShell scripts and build/release definitions in Azure DevOps.
+•	Developed Python scripts for tasks such as data import, MySQL management, and code replacement. Utilized JIRA as a bug tracking tool, managing bugs and changes in the production environment.
+Environment: AZURE, Kubernetes, Docker, Jenkins, Ansible, Terraform, Python, GIT, Shell Scripting, JIRA, Tomcat Application Servers, YAML Scripting, VM, IOT, Subnets, PowerShell Scripting
+
+Rogers, Toronto, Ontario                                                                                                  Sep 2021 – Sep  2022 
+Cloud Infrastructure Engineer / DevOps Engineer
+•	Extensive experience in Windows Azure (IaaS), including creating Azure VMs, storage accounts, VHDs, storage pools, and migrating on-premise servers to Azure. Also proficient in managing Azure availability sets.
+•	Configured Azure Web Apps, App services, Application insights, Azure DNS, Azure Network Watcher. Implemented Azure site recovery, Azure stack, backup, and automation.
+•	Managed Azure Infrastructure, including web roles, worker roles, VM Role, Azure SQL, Azure Storage, Azure AD licenses. Handled virtual machine backup and recovery using Azure PowerShell and Azure portal.
+•	Worked on Azure Site Recovery and Azure Backup, deploying instances on Azure environments and data centers. Utilized Azure Site Recovery for migrating to Azure and Log Analytics for data collection and issue resolution.
+•	Implemented various Azure resources using Azure portal and PowerShell with Azure Resource Manager deployment models. Proficient in deploying infrastructure as code applications using ARM Templates (JSON).
+•	Supported AWS Cloud environment with 200+ instances, configuring Elastic IP, Elastic Storage, security groups, and Network ACLs.
+•	Created S3 buckets, managed policies, and utilized S3 for storage and backup. Experienced in migrating applications from internal data centers to AWS.
+•	Deployed applications into the AWS cloud using Amazon EC2, VPC (Virtual Private Cloud), IAM (Identity and Access Management), AWS S3, Glacier, CloudWatch, CloudTrail, and Route 53.
+•	Involved in designing and deploying multi-tier applications utilizing all AWS services like EC2, Route53, S3, RDS, DynamoDB, SNS, SQS, and IAM. Focused on high availability, fault tolerance, and auto-scaling using AWS CloudFormation.
+•	Installed and administered monitoring tool Nagios and managed JIRA/Confluence/Jive add-ons, plugins, and extensions. Designed and maintained dashboards for resource monitoring, network monitoring, and log trace monitoring.
+•	Utilized Azure Kubernetes Service (AKS) to deploy managed Kubernetes clusters in Azure. Created AKS clusters using Azure portal, Azure CLI, Resource Manager templates, and Terraform. Managed Kubernetes charts using Helm and handled Kubernetes manifest files.
+•	Experienced in Docker containerization, working with Docker Registry, Docker Hub, Docker files, Docker Container Network. Managed containerized applications and utilized Kubernetes for scheduling, deployment, and management of container replicas. Also worked with Docker Swarm and Mesos clusters.
+•	Proficient in Ansible for automation, managing system administration activities, and creating playbooks. Used Ansible templates and Ansible Vault to handle configurations and protect sensitive data.
+•	Installed and implemented Ansible configuration management system. Utilized Ansible for managing web applications, environment configurations, users, mount points, and packages.
+•	Installed and configured Jenkins for continuous integration and continuous deployment (CI/CD). Created Jenkins CI/CD pipelines, integrated plugins for automated testing and code quality check. Published Docker images to Nexus repository through Jenkins.
+•	Developed Python scripts for manufacturing quality, monitoring, logging, and debugging. Utilized Python for tasks such as connecting to Apache Cassandra instances, shell scripting, XML automation, and data parsing.
+•	Worked with GIT as a source code management tool, handling repository creation, branching, tagging, and coordinating with developers on branching and naming conventions.
+•	Experienced with ELK (Elasticsearch, Logstash, and Kibana) architecture, configuring and managing the stack for log collection, search, analysis, and deriving analytics on Elasticsearch data.
+•	Proficient in Shell scripting and Bash scripting for automation and system administration tasks.
+•	Worked in a Linux environment and managed Ubuntu and RHEL virtual servers on Azure using Ansible.
+Environment: AZURE, AWS, VMs, SQL, Splunk, Kubernetes, Docker, Ansible, Playbooks, Nexus, Jenkins, Shell scripting, Jira, Terraform, S3 bucket, GIT, Nagios Python, Jenkins server.
+
+Bank Of Maharashtra, India                                                                                    April 2018 to Sep 2021                           
+Cloud DevOps Engineer / AWS Cloud Engineer
+•	Extensive experience with AWS infrastructure, including EC2, AMI, ECS, Elastic Cache, Elasticsearch, RDS, VPC implementation, IAM, KMS, WAF, CloudTrail, CloudWatch, S3, CloudFront, AWS CLI scripting, ELB, Route 53, Lambda, DynamoDB, Elastic Beanstalk, SQS, SNS, and security group management.
+•	Managed 200+ AWS instances, configuring Elastic IP, Elastic Storage, security groups, and Network ACLs.
+•	Implemented S3 buckets for storage and backup, and migrated applications from internal data centers to AWS.
+•	Deployed applications using Amazon EC2, VPC, IAM, AWS S3, Glacier, CloudWatch, CloudTrail, and Route 53.
+•	Designed and deployed multi-tier applications with high availability, fault tolerance, and auto-scaling using AWS services such as EC2, Route 53, S3, RDS, DynamoDB, SNS, SQS, and IAM in AWS CloudFormation.
+•	Implemented AWS Security Groups for virtual firewalls, configured Elastic Load Balancer, and managed AMIs for cost-effective, fault-tolerant, and highly available systems.
+•	Transformed AWS infrastructure to serverless architecture using Terraform and AWS Elastic Beanstalk, integrated AWS Lambda with Amazon Kinesis and DynamoDB for data storage and backup.
+•	Proficient in Docker container-based deployments, utilizing Docker files, images, Hub, Compose, and registries, as well as working with Docker Engine, Machine, and Swarm for orchestration.
+•	Created Terraform scripts for launching common services like JENKINS, Chef, and Vault, and used Chef cookbooks to configure EC2 instances.
+•	Implemented CI/CD pipelines using GitHub, Jenkins, Maven, Nexus, and Chef, and managed Chef Servers and Cookbooks for system automation.
+•	Developed Python scripts for data access, analysis, and automation using Boto3, and worked with JSON parsing and database integration.
+•	Experienced with ELK (Elasticsearch, Logstash, and Kibana) architecture, configuring and managing the stack for log collection, search, analysis, and deriving analytics on Elasticsearch data.
+Environment: AWS, Terraform, Chef, Docker, Jenkins, Git, Jira, Jenkins, Kubernetes, Maven, ELK,  Shell, Bash, Python, DynamoDB, Cassandra, Tomcat, Nginx, Linux, VMware.	
