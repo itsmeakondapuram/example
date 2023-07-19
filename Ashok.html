@@ -14,13 +14,13 @@
         #sidebar {
             background-color: #333;
             color: #fff;
-            width: 100%; /* Changed to 100% */
-            max-width: 250px; /* Added max-width */
+            width: 100%;
+            max-width: 250px;
             position: fixed;
             top: 0;
             left: 0;
             padding-top: 20px;
-            overflow-y: auto; /* Added for scrolling on small screens */
+            overflow-y: auto;
             height: 100vh;
         }
 
@@ -49,7 +49,7 @@
             display: none;
         }
 
-        .menu-content.active {
+        .menu-content:target {
             display: block;
         }
     </style>
@@ -58,21 +58,21 @@
     <div id="sidebar">
         <h1 style="padding: 0 10px;">My Script</h1>
         <ul>
-            <li onclick="showContent(1)">Menu Item 1</li>
-            <li onclick="showContent(2)">Menu Item 2</li>
-            <li onclick="showContent(3)">Menu Item 3</li>
-            <li onclick="showContent(4)">Menu Item 4</li>
-            <li onclick="showContent(5)">Menu Item 5</li>
-            <li onclick="showContent(6)">Menu Item 6</li>
-            <li onclick="showContent(7)">Menu Item 7</li>
-            <li onclick="showContent(8)">Menu Item 8</li>
-            <li onclick="showContent(9)">Menu Item 9</li>
-            <li onclick="showContent(10)">Menu Item 10</li>
+            <li><a href="#menuContent1">Menu Item 1</a></li>
+            <li><a href="#menuContent2">Menu Item 2</a></li>
+            <li><a href="#menuContent3">Menu Item 3</a></li>
+            <li><a href="#menuContent4">Menu Item 4</a></li>
+            <li><a href="#menuContent5">Menu Item 5</a></li>
+            <li><a href="#menuContent6">Menu Item 6</a></li>
+            <li><a href="#menuContent7">Menu Item 7</a></li>
+            <li><a href="#menuContent8">Menu Item 8</a></li>
+            <li><a href="#menuContent9">Menu Item 9</a></li>
+            <li><a href="#menuContent10">Menu Item 10</a></li>
         </ul>
     </div>
     <div id="content">
         <h2 id="menuHeading">Menu Item 1</h2>
-        <p id="menuContent1" class="menu-content active">
+        <p id="menuContent1" class="menu-content">
             Shortened Lorem Ipsum content for Menu Item 1.
         </p>
         <p id="menuContent2" class="menu-content">
