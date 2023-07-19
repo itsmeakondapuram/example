@@ -9,38 +9,50 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            background-color: #f2f2f2;
         }
 
-        #sidebar {
+        #top-menu {
             background-color: #333;
             color: #fff;
-            width: 250px;
-            height: 100vh;
-            position: fixed;
-            top: 0;
-            left: 0;
-            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
         }
 
-        #sidebar ul {
-            list-style: none;
-            padding: 0;
+        #top-menu h1 {
             margin: 0;
+            padding: 0 20px;
         }
 
-        #sidebar li {
+        #menu-items {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
             padding: 10px;
-            border-bottom: 1px solid #444;
-            cursor: pointer;
         }
 
-        #sidebar li:hover {
+        #menu-items a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        #menu-items a:hover {
             background-color: #555;
         }
 
         #content {
-            margin-left: 260px;
+            margin: 40px auto;
+            max-width: 600px;
+            background-color: #fff;
             padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
         }
 
         .menu-content {
@@ -53,14 +65,14 @@
     </style>
 </head>
 <body>
-    <div id="sidebar">
-        <h1 style="padding: 0 10px;">My Script</h1>
-        <ul>
-            <li><a href="#menuContent1">Menu Item 1</a></li>
-            <li><a href="#menuContent2">Menu Item 2</a></li>
-            <li><a href="#menuContent3">Menu Item 3</a></li>
-            <!-- ... Repeat the pattern for the other menu items -->
-        </ul>
+    <div id="top-menu">
+        <h1>My Script</h1>
+    </div>
+    <div id="menu-items">
+        <a href="#menuContent1">Menu Item 1</a>
+        <a href="#menuContent2">Menu Item 2</a>
+        <a href="#menuContent3">Menu Item 3</a>
+        <!-- ... Repeat the pattern for the other menu items -->
     </div>
     <div id="content">
         <h2 id="menuHeading">Menu Item 1</h2>
