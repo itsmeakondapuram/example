@@ -31,16 +31,24 @@
         #sidebar li {
             padding: 10px;
             border-bottom: 1px solid #444;
+            cursor: pointer;
         }
 
         #sidebar li:hover {
             background-color: #555;
-            cursor: pointer;
         }
 
         #content {
             margin-left: 260px;
             padding: 20px;
+        }
+
+        .menu-content {
+            display: none;
+        }
+
+        .menu-content.active {
+            display: block;
         }
     </style>
 </head>
@@ -62,52 +70,16 @@
     </div>
     <div id="content">
         <h2 id="menuHeading">Menu Item 1</h2>
-        <p id="menuContent">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mauris eu purus consectetur
-            feugiat. Fusce accumsan, justo at faucibus fermentum, augue mauris interdum massa, ut tristique justo
-            est a eros. Proin id ante at ipsum luctus viverra non vel ex. Sed a facilisis erat. Duis semper, nunc
-            vitae gravida aliquam, lorem augue euismod ligula, nec tempus lectus mi id nulla. Proin venenatis
-            lectus at lacus tempor, a convallis erat volutpat. Nam eget facilisis tellus, eget viverra urna.
-            Phasellus ultrices nisl et est facilisis, non tristique odio lobortis. Integer eu lacus euismod,
-            volutpat felis eu, vehicula lectus. Fusce eleifend, dolor vel sagittis pharetra, metus nisi
-            fermentum libero, id viverra magna arcu ac ipsum.
+        <p id="menuContent1" class="menu-content active">
+            Shortened Lorem Ipsum content for Menu Item 1.
         </p>
+        <p id="menuContent2" class="menu-content">
+            Shortened Lorem Ipsum content for Menu Item 2.
+        </p>
+        <p id="menuContent3" class="menu-content">
+            Shortened Lorem Ipsum content for Menu Item 3.
+        </p>
+        <!-- ... Repeat the pattern for the other menu items -->
     </div>
-
-    <script>
-        function showContent(menuItem) {
-            const headings = [
-                "Menu Item 1",
-                "Menu Item 2",
-                "Menu Item 3",
-                "Menu Item 4",
-                "Menu Item 5",
-                "Menu Item 6",
-                "Menu Item 7",
-                "Menu Item 8",
-                "Menu Item 9",
-                "Menu Item 10",
-            ];
-
-            const contents = [
-                `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mauris eu purus consectetur feugiat. Fusce accumsan, justo at faucibus fermentum, augue mauris interdum massa, ut tristique justo est a eros. Proin id ante at ipsum luctus viverra non vel ex. Sed a facilisis erat. Duis semper, nunc vitae gravida aliquam, lorem augue euismod ligula, nec tempus lectus mi id nulla. Proin venenatis lectus at lacus tempor, a convallis erat volutpat. Nam eget facilisis tellus, eget viverra urna. Phasellus ultrices nisl et est facilisis, non tristique odio lobortis. Integer eu lacus euismod, volutpat felis eu, vehicula lectus. Fusce eleifend, dolor vel sagittis pharetra, metus nisi fermentum libero, id viverra magna arcu ac ipsum.`,
-                `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mauris eu purus consectetur feugiat. Fusce accumsan, justo at faucibus fermentum, augue mauris interdum massa, ut tristique justo est a eros. Proin id ante at ipsum luctus viverra non vel ex. Sed a facilisis erat. Duis semper, nunc vitae gravida aliquam, lorem augue euismod ligula, nec tempus lectus mi id nulla. Proin venenatis lectus at lacus tempor, a convallis erat volutpat. Nam eget facilisis tellus, eget viverra urna. Phasellus ultrices nisl et est facilisis, non tristique odio lobortis. Integer eu lacus euismod, volutpat felis eu, vehicula lectus. Fusce eleifend, dolor vel sagittis pharetra, metus nisi fermentum libero, id viverra magna arcu ac ipsum.`,
-                `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mauris eu purus consectetur feugiat. Fusce accumsan, justo at faucibus fermentum, augue mauris interdum massa, ut tristique justo est a eros. Proin id ante at ipsum luctus viverra non vel ex. Sed a facilisis erat. Duis semper, nunc vitae gravida aliquam, lorem augue euismod ligula, nec tempus lectus mi id nulla. Proin venenatis lectus at lacus tempor, a convallis erat volutpat. Nam eget facilisis tellus, eget viverra urna. Phasellus ultrices nisl et est facilisis, non tristique odio lobortis. Integer eu lacus euismod, volutpat felis eu, vehicula lectus. Fusce eleifend, dolor vel sagittis pharetra, metus nisi fermentum libero, id viverra magna arcu ac ipsum.`,
-                `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mauris eu purus consectetur feugiat. Fusce accumsan, justo at faucibus fermentum, augue mauris interdum massa, ut tristique justo est a eros. Proin id ante at ipsum luctus viverra non vel ex. Sed a facilisis erat. Duis semper, nunc vitae gravida aliquam, lorem augue euismod ligula, nec tempus lectus mi id nulla. Proin venenatis lectus at lacus tempor, a convallis erat volutpat. Nam eget facilisis tellus, eget viverra urna. Phasellus ultrices nisl et est facilisis, non tristique odio lobortis. Integer eu lacus euismod, volutpat felis eu, vehicula lectus. Fusce eleifend, dolor vel sagittis pharetra, metus nisi fermentum libero, id viverra magna arcu ac ipsum.`,
-                `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mauris eu purus consectetur feugiat. Fusce accumsan, justo at faucibus fermentum, augue mauris interdum massa, ut tristique justo est a eros. Proin id ante at ipsum luctus viverra non vel ex. Sed a facilisis erat. Duis semper, nunc vitae gravida aliquam, lorem augue euismod ligula, nec tempus lectus mi id nulla. Proin venenatis lectus at lacus tempor, a convallis erat volutpat. Nam eget facilisis tellus, eget viverra urna. Phasellus ultrices nisl et est facilisis, non tristique odio lobortis. Integer eu lacus euismod, volutpat felis eu, vehicula lectus. Fusce eleifend, dolor vel sagittis pharetra, metus nisi fermentum libero, id viverra magna arcu ac ipsum.`,
-                `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mauris eu purus consectetur feugiat. Fusce accumsan, justo at faucibus fermentum, augue mauris interdum massa, ut tristique justo est a eros. Proin id ante at ipsum luctus viverra non vel ex. Sed a facilisis erat. Duis semper, nunc vitae gravida aliquam, lorem augue euismod ligula, nec tempus lectus mi id nulla. Proin venenatis lectus at lacus tempor, a convallis erat volutpat. Nam eget facilisis tellus, eget viverra urna. Phasellus ultrices nisl et est facilisis, non tristique odio lobortis. Integer eu lacus euismod, volutpat felis eu, vehicula lectus. Fusce eleifend, dolor vel sagittis pharetra, metus nisi fermentum libero, id viverra magna arcu ac ipsum.`,
-                `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mauris eu purus consectetur feugiat. Fusce accumsan, justo at faucibus fermentum, augue mauris interdum massa, ut tristique justo est a eros. Proin id ante at ipsum luctus viverra non vel ex. Sed a facilisis erat. Duis semper, nunc vitae gravida aliquam, lorem augue euismod ligula, nec tempus lectus mi id nulla. Proin venenatis lectus at lacus tempor, a convallis erat volutpat. Nam eget facilisis tellus, eget viverra urna. Phasellus ultrices nisl et est facilisis, non tristique odio lobortis. Integer eu lacus euismod, volutpat felis eu, vehicula lectus. Fusce eleifend, dolor vel sagittis pharetra, metus nisi fermentum libero, id viverra magna arcu ac ipsum.`,
-                `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mauris eu purus consectetur feugiat. Fusce accumsan, justo at faucibus fermentum, augue mauris interdum massa, ut tristique justo est a eros. Proin id ante at ipsum luctus viverra non vel ex. Sed a facilisis erat. Duis semper, nunc vitae gravida aliquam, lorem augue euismod ligula, nec tempus lectus mi id nulla. Proin venenatis lectus at lacus tempor, a convallis erat volutpat. Nam eget facilisis tellus, eget viverra urna. Phasellus ultrices nisl et est facilisis, non tristique odio lobortis. Integer eu lacus euismod, volutpat felis eu, vehicula lectus. Fusce eleifend, dolor vel sagittis pharetra, metus nisi fermentum libero, id viverra magna arcu ac ipsum.`,
-                `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mauris eu purus consectetur feugiat. Fusce accumsan, justo at faucibus fermentum, augue mauris interdum massa, ut tristique justo est a eros. Proin id ante at ipsum luctus viverra non vel ex. Sed a facilisis erat. Duis semper, nunc vitae gravida aliquam, lorem augue euismod ligula, nec tempus lectus mi id nulla. Proin venenatis lectus at lacus tempor, a convallis erat volutpat. Nam eget facilisis tellus, eget viverra urna. Phasellus ultrices nisl et est facilisis, non tristique odio lobortis. Integer eu lacus euismod, volutpat felis eu, vehicula lectus. Fusce eleifend, dolor vel sagittis pharetra, metus nisi fermentum libero, id viverra magna arcu ac ipsum.`,
-                `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum mauris eu purus consectetur feugiat. Fusce accumsan, justo at faucibus fermentum, augue mauris interdum massa, ut tristique justo est a eros. Proin id ante at ipsum luctus viverra non vel ex. Sed a facilisis erat. Duis semper, nunc vitae gravida aliquam, lorem augue euismod ligula, nec tempus lectus mi id nulla. Proin venenatis lectus at lacus tempor, a convallis erat volutpat. Nam eget facilisis tellus, eget viverra urna. Phasellus ultrices nisl et est facilisis, non tristique odio lobortis. Integer eu lacus euismod, volutpat felis eu, vehicula lectus. Fusce eleifend, dolor vel sagittis pharetra, metus nisi fermentum libero, id viverra magna arcu ac ipsum.`,
-            ];
-
-            document.getElementById("menuHeading").textContent = headings[menuItem - 1];
-            document.getElementById("menuContent").textContent = contents[menuItem - 1];
-        }
-
-        // Show the first menu item content by default
-        showContent(1);
-    </script>
 </body>
 </html>
