@@ -14,14 +14,12 @@
         #sidebar {
             background-color: #333;
             color: #fff;
-            width: 100%;
-            max-width: 250px;
+            width: 250px;
+            height: 100vh;
             position: fixed;
             top: 0;
             left: 0;
             padding-top: 20px;
-            overflow-y: auto;
-            height: 100vh;
         }
 
         #sidebar ul {
@@ -49,7 +47,7 @@
             display: none;
         }
 
-        .menu-content:target {
+        :target {
             display: block;
         }
     </style>
@@ -61,13 +59,7 @@
             <li><a href="#menuContent1">Menu Item 1</a></li>
             <li><a href="#menuContent2">Menu Item 2</a></li>
             <li><a href="#menuContent3">Menu Item 3</a></li>
-            <li><a href="#menuContent4">Menu Item 4</a></li>
-            <li><a href="#menuContent5">Menu Item 5</a></li>
-            <li><a href="#menuContent6">Menu Item 6</a></li>
-            <li><a href="#menuContent7">Menu Item 7</a></li>
-            <li><a href="#menuContent8">Menu Item 8</a></li>
-            <li><a href="#menuContent9">Menu Item 9</a></li>
-            <li><a href="#menuContent10">Menu Item 10</a></li>
+            <!-- ... Repeat the pattern for the other menu items -->
         </ul>
     </div>
     <div id="content">
